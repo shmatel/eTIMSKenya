@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2269298093074137"
+     crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eTIMS Kenya — Registration & How to Generate an eTIMS Invoice Guide</title>
+  <meta name="description" content="Free step-by-step eTIMS registration & invoice generation guide for Kenyan businesses. June 30, 2026 deadline. English and Swahili. Too busy? We'll do it for you — Ksh 500 via M-Pesa.">
+  <meta name="keywords" content="eTIMS Kenya, eTIMS registration 2026, KRA eTIMS deadline, how to generate KRA etims invoice, eTIMS invoice generation, KRA invoice, jinsi ya kutoa invoice ya etims">
+  <meta property="og:title" content="eTIMS Kenya — Registration & Invoice Generation Guide">
+  <meta property="og:description" content="Free step-by-step guide to eTIMS registration and invoice generation. Too busy? We'll do it for you for Ksh 500.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --kra-green: #006633;
+      --kra-green-light: #008844;
+      --danger: #CC2200;
+      --danger-light: #FFF0ED;
+      --warning: #E07000;
+      --warning-bg: #FFF7ED;
+      --success: #006633;
+      --success-bg: #EDFAF2;
+      --text: #111827;
+      --text-muted: #6B7280;
+      --border: #E5E7EB;
+      --bg: #F9FAFB;
+      --white: #FFFFFF;
+      --step-bg: #F0FDF4;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.6;
+    }
+
+    /* ===== DEADLINE BANNER ===== */
+    .deadline-banner {
+      background: var(--danger);
+      color: white;
+      text-align: center;
+      padding: 10px 16px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    .deadline-banner span { opacity: 0.85; font-weight: 400; }
+
+    /* ===== HERO ===== */
+    .hero {
+      background: var(--kra-green);
+      color: white;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(28px, 5vw, 48px);
+      font-weight: 700;
+      line-height: 1.2;
+      max-width: 720px;
+      margin: 0 auto 16px;
+    }
+    .hero h1 em {
+      font-style: normal;
+      color: #86EFAC;
+    }
+    .hero-sub {
+      font-size: 17px;
+      opacity: 0.88;
+      max-width: 540px;
+      margin: 0 auto 32px;
+    }
+    .hero-ctas {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      background: white;
+      color: var(--kra-green);
+      font-weight: 700;
+      font-size: 15px;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.15s;
+    }
+    .btn-primary:hover { transform: translateY(-1px); }
+    .btn-secondary {
+      background: rgba(255,255,255,0.12);
+      color: white;
+      border: 1.5px solid rgba(255,255,255,0.4);
+      font-weight: 600;
+      font-size: 15px;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    /* ===== COUNTDOWN ===== */
+    .countdown-strip {
+      background: var(--danger-light);
+      border-bottom: 2px solid #FECACA;
+      padding: 16px 24px;
+      text-align: center;
+    }
+    .countdown-inner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--danger);
+    }
+    .countdown-blocks { display: flex; gap: 8px; }
+    .cd-block {
+      background: var(--danger);
+      color: white;
+      border-radius: 6px;
+      padding: 6px 10px;
+      text-align: center;
+      min-width: 48px;
+    }
+    .cd-num { font-size: 20px; font-weight: 800; display: block; line-height: 1; }
+    .cd-label { font-size: 10px; font-weight: 500; opacity: 0.85; text-transform: uppercase; }
+
+    /* ===== TRUST BAR ===== */
+    .trust-bar {
+      background: var(--success-bg);
+      border-bottom: 1px solid #BBF7D0;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--success);
+    }
+
+    /* ===== MAIN LAYOUT ===== */
+    .container { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+    .section { padding: 48px 0; }
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .section-sub { color: var(--text-muted); font-size: 15px; margin-bottom: 32px; }
+
+    /* ===== TABLES ===== */
+    .rules-table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      margin-bottom: 16px;
+    }
+    .rules-table th {
+      padding: 14px 16px;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+    }
+    .rules-table th.th-2025 { background: var(--warning-bg); color: var(--warning); }
+    .rules-table th.th-2026 { background: var(--danger-light); color: var(--danger); }
+    .rules-table td {
+      padding: 12px 16px;
+      font-size: 14px;
+      border-top: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .rules-table tr:nth-child(even) td { background: var(--bg); }
+    .tag-ok { color: #16A34A; font-weight: 600; }
+    .tag-no { color: var(--danger); font-weight: 600; }
+
+    /* ===== STEPS ===== */
+    .steps { display: flex; flex-direction: column; gap: 20px; }
+    .step {
+      background: var(--step-bg);
+      border: 1px solid #BBF7D0;
+      border-radius: 12px;
+      padding: 20px 20px 20px 16px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .step-num {
+      background: var(--kra-green);
+      color: white;
+      font-weight: 800;
+      font-size: 14px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .step-content h3 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    .step-content p { font-size: 14px; color: #374151; line-height: 1.6; }
+    .step-content .tip {
+      margin-top: 8px;
+      background: white;
+      border-left: 3px solid var(--kra-green);
+      padding: 8px 12px;
+      font-size: 13px;
+      color: var(--text-muted);
+      border-radius: 0 6px 6px 0;
+    }
+    .step-content code {
+      background: #1F2937;
+      color: #86EFAC;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-family: monospace;
+    }
+
+    /* ===== SWAHILI TOGGLE ===== */
+    .lang-toggle {
+      display: flex;
+      gap: 0;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      width: fit-content;
+      margin-bottom: 24px;
+    }
+    .lang-btn {
+      padding: 8px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+    .lang-btn.active {
+      background: var(--kra-green);
+      color: white;
+    }
+
+    /* ===== CTA BOX ===== */
+    .cta-box {
+      background: linear-gradient(135deg, var(--kra-green) 0%, var(--kra-green-light) 100%);
+      border-radius: 16px;
+      padding: 32px 28px;
+      text-align: center;
+      color: white;
+      margin: 48px 0;
+    }
+    .cta-box h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .cta-box p { opacity: 0.9; margin-bottom: 24px; font-size: 15px; }
+    .price-tag {
+      font-size: 36px;
+      font-weight: 800;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+    .price-tag span { font-size: 16px; font-weight: 400; opacity: 0.8; }
+    .cta-steps {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+    .cta-step-item {
+      background: rgba(255,255,255,0.15);
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .btn-whatsapp {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #25D366;
+      color: white;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 16px 32px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+    .mpesa-note {
+      margin-top: 16px;
+      font-size: 13px;
+      opacity: 0.75;
+    }
+
+    /* ===== FAQ ===== */
+    .faq-list { display: flex; flex-direction: column; gap: 12px; }
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .faq-q {
+      padding: 16px 20px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--white);
+      border: none;
+      width: 100%;
+      text-align: left;
+      color: var(--text);
+    }
+    .faq-q:hover { background: var(--bg); }
+    .faq-a {
+      padding: 0 20px;
+      font-size: 14px;
+      color: #374151;
+      line-height: 1.7;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.2s;
+    }
+    .faq-a.open {
+      max-height: 400px;
+      padding: 12px 20px 16px;
+      border-top: 1px solid var(--border);
+    }
+    .faq-icon { font-size: 18px; color: var(--kra-green); transition: transform 0.2s; }
+    .faq-icon.open { transform: rotate(45deg); }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #111827;
+      color: #9CA3AF;
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+    }
+    footer a { color: #86EFAC; text-decoration: none; }
+
+    /* ===== WHATSAPP FLOAT ===== */
+    .wa-float {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #25D366;
+      color: white;
+      padding: 14px 20px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      z-index: 999;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.4); }
+      50% { box-shadow: 0 4px 32px rgba(37,211,102,0.7); }
+    }
+
+    @media (max-width: 600px) {
+      .hero { padding: 32px 16px 28px; }
+      .cta-steps { flex-direction: column; align-items: center; }
+      .countdown-inner { flex-direction: column; gap: 6px; }
+      .trust-bar { gap: 12px; }
+    }
+  </style>
+
+  <!-- FAQ SEARCH SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "How do I generate a KRA eTIMS invoice online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To generate an eTIMS invoice, log into etims.kra.go.ke, open the Invoice Management or Sales tab, add your customer's KRA PIN, map out your products, select your VAT tax classifications (such as 16% VAT or Exempt), and submit to receive a signed invoice document complete with a dynamic QR code."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Can I edit an eTIMS invoice after generating it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, once an eTIMS invoice is submitted and generated, it cannot be edited or deleted. To rectify a mistake, you must issue a Credit Note or a Debit Note against the original invoice number within the eTIMS platform ecosystem."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<!-- DEADLINE BANNER -->
+<div class="deadline-banner">
+  ⚠️ KRA eTIMS Deadline: June 30, 2026 — <span>No eTIMS = No Tax Compliance Certificate</span>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">Free Guide • English & Swahili</div>
+  <h1>Register for eTIMS & Learn How to Generate Invoices</h1>
+  <p class="hero-sub">Simple step-by-step guides for every Kenyan business owner. Set up your software layout and learn how to generate compliance tax invoices effortlessly.</p>
+  <div class="hero-ctas">
+    <a href="#guide" class="btn-primary">View Free Guides →</a>
+    <a href="#done-for-you" class="btn-secondary">Do Registration For Me — Ksh 500</a>
+  </div>
+</div>
+
+<!-- COUNTDOWN -->
+<div class="countdown-strip">
+  <div class="countdown-inner">
+    <span>⏰ Time left until June 30 deadline:</span>
+    <div class="countdown-blocks" id="countdown-blocks">
+      <div class="cd-block"><span class="cd-num" id="cd-days">--</span><span class="cd-label">Days</span></div>
+      <div class="cd-block"><span class="cd-num" id="cd-hours">--</span><span class="cd-label">Hours</span></div>
+      <div class="cd-block"><span class="cd-num" id="cd-mins">--</span><span class="cd-label">Mins</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item">✅ 100% Free Guides</div>
+  <div class="trust-item">🇰🇪 English & Swahili</div>
+  <div class="trust-item">⚡ Done-for-You Registration</div>
+  <div class="trust-item">📱 M-Pesa Accepted</div>
+</div>
+
+<!-- 2025 VS 2026 RULES -->
+<div class="container">
+  <div class="section">
+    <div class="section-title">What Changed with KRA's June 8 Notice</div>
+    <p class="section-sub">KRA issued a public notice on June 8 — read this before you file.</p>
+    <table class="rules-table">
+      <thead>
+        <tr>
+          <th class="th-2025">📋 2025 Year of Income (Filing Now)</th>
+          <th class="th-2026">🚨 2026 Onwards (Starting Jan 1)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="tag-ok">✅ One-time concession</span> — you can declare expenses without eTIMS invoices</td>
+          <td><span class="tag-no">❌ No exceptions</span> — ALL expenses MUST have eTIMS invoices</td>
+        </tr>
+        <tr>
+          <td>Expenses uploaded will be subject to KRA validation after submission</td>
+          <td>Expenses without eTIMS invoices are automatically disallowed</td>
+        </tr>
+        <tr>
+          <td>File 2025 returns by June 30, 2026 to use this window</td>
+          <td>If your supplier doesn't capture your PIN on eTIMS, your expense is blocked</td>
+        </tr>
+        <tr>
+          <td>Fail to file by June 30 → KRA auto-files for you + Ksh 2,000 penalty</td>
+          <td>No eTIMS registration → No Tax Compliance Certificate (TCC)</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-size: 13px; color: var(--text-muted);">Source: KRA Public Notice, June 8 2026 • <a href="https://www.kra.go.ke" target="_blank" style="color: var(--kra-green);">kra.go.ke</a></p>
+  </div>
+</div>
+
+<!-- STEP BY STEP REGISTRATION GUIDE -->
+<div style="background: var(--bg); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+<div class="container">
+  <div class="section" id="guide">
+    <div class="section-title">Step-by-Step eTIMS Registration Guide</div>
+    <p class="section-sub">Follow these steps carefully to create your taxpayer account. Takes 10–20 minutes.</p>
+
+<!-- COMMENTED OUT TEMPORARILY TO PREVENT 404 ERRORS -->
+    <!--
+    <div class="lang-toggle">
+      <a href="index.html" class="lang-btn active">English</a>
+      <a href="kiswahili.html" class="lang-btn">Kiswahili</a>
+    </div>
+  -->
+
+    <!-- ENGLISH GUIDE -->
+    <div id="english-guide" class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h3>Make Sure You Have a KRA PIN</h3>
+          <p>You must have an active KRA PIN before registering for eTIMS. If you don't have one, go to <strong>itax.kra.go.ke</strong> first and register. It's free.</p>
+          <div class="tip">💡 Your KRA PIN looks like: A000000000B</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h3>Go to the eTIMS Taxpayer Portal</h3>
+          <p>Open your browser and go to <code>etims.kra.go.ke</code> — this is the official KRA eTIMS portal. Do NOT use any other website.</p>
+          <div class="tip">⚠️ Beware of fake sites. The official address is <strong>etims.kra.go.ke</strong> only.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h3>Click "Sign Up" and Enter Your KRA PIN</h3>
+          <p>On the eTIMS homepage, click the <strong>Sign Up</strong> button. Enter your KRA PIN in the field provided and click Continue.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <h3>Enter the OTP Sent to Your Phone</h3>
+          <p>KRA will send a One-Time Password (OTP) to the mobile number registered on your iTax account. Enter this code on the screen. It expires in 5 minutes.</p>
+          <div class="tip">💡 If you don't receive the OTP, the phone number on your iTax account may be outdated. Update it at <strong>itax.kra.go.ke</strong> first.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-content">
+          <h3>Create Your eTIMS Password</h3>
+          <p>Set a strong password for your eTIMS account. Use at least 8 characters with a mix of letters and numbers. Write it down somewhere safe — do NOT use your iTax password.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">6</div>
+        <div class="step-content">
+          <h3>Choose Your eTIMS Solution</h3>
+          <p>Log in and go to <strong>Service Request</strong>. You will see different eTIMS solutions — choose based on your business size:</p>
+          <ul style="margin-top:8px; padding-left:20px; font-size:14px; color:#374151; line-height:1.9;">
+            <li><strong>eTIMS Client Lite (Mobile App)</strong> — Best for small businesses, hawkers, sole traders. Free. Download on Google Play.</li>
+            <li><strong>eTIMS Client (Desktop)</strong> — For medium businesses issuing many invoices daily.</li>
+            <li><strong>OSCU/VSCU Integration</strong> — For large businesses with existing billing systems.</li>
+          </ul>
+          <div class="tip">💡 Most small businesses should choose <strong>eTIMS Client Lite</strong> — it's free and works on any Android phone.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">7</div>
+        <div class="step-content">
+          <h3>Upload Your Business Documents</h3>
+          <p>Depending on your business type, upload the required documents:</p>
+          <ul style="margin-top:8px; padding-left:20px; font-size:14px; color:#374151; line-height:1.9;">
+            <li><strong>Sole Proprietor:</strong> National ID (front and back)</li>
+            <li><strong>Partnership:</strong> Partnership Deed</li>
+            <li><strong>Limited Company:</strong> Certificate of Incorporation + CR12</li>
+          </ul>
+          <div class="tip">💡 Scan or photograph documents clearly. File size should be under 2MB each.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">8</div>
+        <div class="step-content">
+          <h3>Submit and Wait for Activation</h3>
+          <p>Submit your application. KRA will review and activate your account — this is now <strong>instant for most applications</strong> since KRA removed the manual approval requirement in 2025.</p>
+          <div class="tip">✅ Once activated, download the eTIMS Client Lite app and log in using your KRA PIN and eTIMS password. You're ready to issue invoices!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- NEW INVOICE GENERATION SECTION -->
+<div style="background: #FFFFFF; border-bottom: 1px solid var(--border);">
+<div class="container">
+  <div class="section" id="invoice-guide">
+    <div class="section-title">How to Generate a KRA eTIMS Invoice Online</div>
+    <p class="section-sub">Once your registration account is activated, follow these precise step-by-step guidelines to issue an electronic tax invoice layout correctly.</p>
+    
+    <div class="steps">
+      <div class="step" style="background: #F0F9FF; border-color: #BAE6FD;">
+        <div class="step-num" style="background: #0284C7;">1</div>
+        <div class="step-content">
+          <h3>Log into the Portal</h3>
+          <p>Open your desktop or mobile browser and navigate to <code>etims.kra.go.ke</code>. Enter your KRA PIN and your eTIMS specific password.</p>
+        </div>
+      </div>
+
+      <div class="step" style="background: #F0F9FF; border-color: #BAE6FD;">
+        <div class="step-num" style="background: #0284C7;">2</div>
+        <div class="step-content">
+          <h3>Access the Invoicing Dashboard</h3>
+          <p>Locate the primary side menu layout and navigate to the <strong>"Sales Management"</strong> or <strong>"Invoice Box"</strong> tab. Click on <strong>"Create New Invoice"</strong>.</p>
+        </div>
+      </div>
+
+      <div class="step" style="background: #F0F9FF; border-color: #BAE6FD;">
+        <div class="step-num" style="background: #0284C7;">3</div>
+        <div class="step-content">
+          <h3>Fill in Customer Identification PIN</h3>
+          <p>Input the client's KRA PIN. If it is a registered business setup, the verification pipeline automatically triggers and pulls their legal registration name from iTax records.</p>
+          <div class="tip" style="border-left-color: #0284C7;">💡 For retail customers without a PIN, toggle the interface options to use the "Cash Sale / Simplified Invoice" layout.</div>
+        </div>
+      </div>
+
+      <div class="step" style="background: #F0F9FF; border-color: #BAE6FD;">
+        <div class="step-num" style="background: #0284C7;">4</div>
+        <div class="step-content">
+          <h3>Add Product Details & Select Tax Class</h3>
+          <p>Input your line items along with quantities and pricing values. Select the correct legal tax classification layout for each item:</p>
+          <ul style="margin-top:8px; padding-left:20px; font-size:14px; color:#374151; line-height:1.9;">
+            <li><strong>Class A (16% VAT)</strong> — Applied to standard taxable products or services.</li>
+            <li><strong>Class E (Exempt)</strong> — For business commodities legally explicitly exempt from VAT calculations.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="step" style="background: #F0F9FF; border-color: #BAE6FD;">
+        <div class="step-num" style="background: #0284C7;">5</div>
+        <div class="step-content">
+          <h3>Issue and Save Your QR Code</h3>
+          <p>Preview your invoice layout data to ensure the calculations are exact. Click <strong>"Submit / Issue Invoice"</strong>. The database will process the request and display a downloadable document containing a unique KRA system QR code and security signature string.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- INVOICE TROUBLESHOOTING TABLE -->
+<div class="container" style="margin-top: 32px;">
+  <div class="section" style="padding-top: 0; padding-bottom: 16px;">
+    <div class="section-title" style="font-size: 20px;">Common KRA Invoice Errors & Immediate Fixes</div>
+    <p class="section-sub">Quick reference layout to address common transaction system errors.</p>
+    <table class="rules-table">
+      <thead>
+        <tr>
+          <th style="background: #F3F4F6; color: #374151;">⚠️ Issue Encountered</th>
+          <th style="background: #F3F4F6; color: #374151;">🔧 Resolution Steps</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Wrong amount submitted on invoice</strong></td>
+          <td>Generated invoices cannot be directly edited or deleted. You must navigate to your layout tools and issue an official system <strong>Credit Note</strong> to cancel out the faulty balance.</td>
+        </tr>
+        <tr>
+          <td><strong>Buyer details aren't updating</strong></td>
+          <td>Confirm that the buyer's PIN is active and correctly formatted on iTax. If valid, wait a few moments as KRA’s synchronization systems may be under heavy loads.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- DONE FOR YOU CTA -->
+<div class="container">
+  <div id="done-for-you" class="cta-box">
+    <h2>Too Busy? We'll Do It For You.</h2>
+    <p>Pay via M-Pesa. We handle your entire eTIMS registration within 24 hours and send you confirmation screenshots.</p>
+    <div class="price-tag">Ksh 500 <span>via M-Pesa</span></div>
+    <div class="cta-steps">
+      <div class="cta-step-item">1️⃣ Pay Ksh 500 via M-Pesa</div>
+      <div class="cta-step-item">2️⃣ Send us your details on WhatsApp</div>
+      <div class="cta-step-item">3️⃣ Done in 24 hours ✅</div>
+    </div>
+    <a href="https://wa.me/254118637643?text=Habari%21%20Ninahitaji%20msaada%20wa%20kusajili%20eTIMS%20kabla%20ya%20deadline%20ya%20June%2030.%20Niko%20tayari%20kulipa%20Ksh%20500%20via%20M-Pesa%20—%20tafadhali%20nieleze%20hatua%20za%20kuendelea." class="btn-whatsapp" target="_blank">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp Us Now
+    </a>
+    <p class="mpesa-note">Send Ksh 500 to M-Pesa number <strong>0118637643</strong>, then WhatsApp us your receipt</p>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div style="background: var(--bg); border-top: 1px solid var(--border);">
+<div class="container">
+  <div class="section">
+    <div class="section-title">Frequently Asked Questions</div>
+    <p class="section-sub">Quick answers to what Kenyans are asking right now.</p>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Does every business in Kenya need eTIMS, even small ones?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Yes. KRA extended eTIMS to all businesses including sole proprietors and informal traders. Even if your annual turnover is below the VAT threshold, you still need eTIMS to issue receipts and claim expenses. The free eTIMS Client Lite app is designed specifically for small businesses.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What happens if I miss the June 30 deadline?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">KRA has announced it will automatically file returns for non-filers using data in its systems, and you will face a default assessment penalty of at least Ksh 2,000 under Section 29 of the Tax Procedures Act. More importantly, you won't be able to get a Tax Compliance Certificate (TCC) — which means you can't bid for tenders, open business bank accounts, or apply for government contracts.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          I already filed my 2025 returns — do I still need to register for eTIMS?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Yes. Filing returns and registering for eTIMS are two separate things. The June 30 deadline covers both: filing your 2025 income tax returns AND being registered on eTIMS so that from January 1, 2026 onwards, all your invoices and receipts are generated through the eTIMS system.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What does the "Done For You" Ksh 500 service include?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">We handle your complete eTIMS registration: creating your eTIMS account, selecting the right solution for your business type, uploading your documents, and confirming your activation. We send you screenshots at every step. The entire process is completed within 24 hours of payment. You retain full ownership of your account — we never store your credentials.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Is the eTIMS app free?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Yes. The eTIMS Client Lite mobile app is completely free to download and use. It's available on Google Play Store. Search "KRA eTIMS" and download the official KRA app. There are no monthly fees for basic invoice generation.</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>eTIMS Kenya — Independent compliance guide. Not affiliated with KRA.</p>
+  <p style="margin-top:6px;">
+    For the official KRA portal, visit <a href="https://www.kra.go.ke" target="_blank">kra.go.ke</a> | 
+    <a href="privacy.html" style="color: #86EFAC;">Privacy Policy</a> | 
+    Questions? <a href="https://wa.me/254118637643" target="_blank">WhatsApp Us</a>
+  </p>
+  <p style="margin-top:6px; opacity:0.5;">© 2026 eTIMS Kenya. Built by a Kenyan Developer — Mathew</p>
+</footer>
+
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/254118637643?text=Habari%21%20Nahitaji%20msaada%20wa%20eTIMS." class="wa-float" target="_blank">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  Need Help? WhatsApp Us
+</a>
+
+<script>
+  // Countdown Timer
+  function updateCountdown() {
+    const deadline = new Date('2026-06-30T23:59:59+03:00');
+    const now = new Date();
+    const diff = deadline - now;
+    if (diff <= 0) {
+      document.getElementById('countdown-blocks').innerHTML = '<span style="font-weight:700;color:var(--danger)">Deadline has passed</span>';
+      return;
+    }
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
+    document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+    document.getElementById('cd-mins').textContent = String(mins).padStart(2, '0');
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 30000);
+
+  // FAQ Toggle
+  function toggleFaq(btn) {
+    const answer = btn.nextElementSibling;
+    const icon = btn.querySelector('.faq-icon');
+    const isOpen = answer.classList.contains('open');
+    document.querySelectorAll('.faq-a').forEach(a => a.classList.remove('open'));
+    document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('open'));
+    if (!isOpen) {
+      answer.classList.add('open');
+      icon.classList.add('open');
+    }
+  }
+</script>
+</body>
+</html>

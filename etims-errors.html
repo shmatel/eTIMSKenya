@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common eTIMS Errors and How to Fix Them | KRA Kenya Guide</title>
+    <meta name="description" content="Struggling with eTIMS invoice rejections? Learn how to fix KRA eTIMS error codes 501, buyer PIN mismatches, and validation errors quickly.">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        h1 { color: #b22222; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #ecf0f1; padding-bottom: 5px; }
+        .error-box { background: #fdf2f2; border-left: 5px solid #b22222; padding: 15px; margin: 20px 0; }
+        .solution { font-weight: bold; color: #27ae60; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Common eTIMS Errors in Kenya and How to Fix Them</h1>
+        <p>If you are getting invoice rejections from the Kenya Revenue Authority (KRA) system, you are not alone. A rejected eTIMS invoice means the system returned a non-"000" response code. Here is how to fix the most common issues instantly.</p>
+    </header>
+    
+    <main>
+        <div class="error-box">
+            <h2>1. Error Code 501 / Validation Error</h2>
+            <p><strong>What it means:</strong> A mandatory field required by KRA is missing or formatted incorrectly in your system integration or client app.</p>
+            <p><span class="solution">How to fix:</span> Read the <code>resultMsg</code> carefully. It usually names the missing field (e.g., <code>taxTyCd</code>, <code>pmtTyCd</code>, or <code>totAmt</code>). Ensure your system maps standard item categories properly and that no invoice totals are left blank.</p>
+        </div>
+
+        <div class="error-box">
+            <h2>2. Buyer PIN Mismatch (custTin Error)</h2>
+            <p><strong>What it means:</strong> The buyer’s KRA PIN you entered does not match the exact registered business name in the KRA iTax database.</p>
+            <p><span class="solution">How to fix:</span> Run the PIN through the KRA PIN Checker to confirm the exact spelling of the registered entity. If you are selling to an individual or can't confirm the name, leave the buyer PIN blank—KRA accepts blank PINs, but it will reject a wrong PIN.</p>
+        </div>
+
+        <div class="error-box">
+            <h2>3. Date Format Rejection</h2>
+            <p><strong>What it means:</strong> KRA enforces a strict 14-character timestamp structure (<code>YYYYMMDDHHmmss</code>).</p>
+            <p><span class="solution">How to fix:</span> Ensure your system doesn't include dashes, spaces, or slashes in the <code>salesDt</code> or <code>cfmDt</code> fields. Example of correct format: <code>20260611143000</code>.</p>
+        </div>
+
+        <div class="error-box">
+            <h2>4. Invoice Number Already Exists</h2>
+            <p><strong>What it means:</strong> You are attempting to upload an invoice number that has already been successfully transmitted.</p>
+            <p><span class="solution">How to fix:</span> Do not reuse invoice numbers. If a network glitch occurred during a previous transmission, check your iTax portal first—the original invoice may have gone through perfectly despite the error message.</p>
+        </div>
+
+        <div class="error-box">
+            <h2>5. Invalid Tax Type Code (taxTyCd)</h2>
+            <p><strong>What it means:</strong> The system does not recognize your tax categorization.</p>
+            <p><span class="solution">How to fix:</span> Only use KRA's strict codes: <strong>A</strong> (Exempt), <strong>B</strong> (VAT 16%), <strong>C</strong> (Zero-rated), <strong>D</strong> (Non-VAT registered), or <strong>E</strong> (8% reduced VAT). Do not invent custom codes.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Need more tech assistance with your business setups? Bookmark our site for regular updates.</p>
+    </footer>
+</body>
+</html>
